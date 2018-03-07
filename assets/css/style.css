@@ -325,8 +325,6 @@ input[type=submit] {
         top: 55px;
     }
     #myname{
-        background-color: #4aaaa5;
-        color: white;
         padding: 5px;
         width: 100%;
         max-width: 640px;
@@ -385,5 +383,40 @@ input[type=submit] {
         left: 15px;
     }
 
+}
 
+@media screen and (max-width:580px){
+    .aboutme{
+        width: 100%;
+        max-width: 450px;
+    }
+    .connect{
+        width: 100%;
+        max-width: 450px;
+        position: absolute;
+        margin-top: 120px;
+    }
+    .pagelinks{
+        left: 180px;
+        top: 55px;
+    }
+    #myname{
+        max-width: 580px;
+    }
+    .contact{
+        max-width: 450px;
+        width: 100%;
+    }
+    #connect-index{
+        margin-bottom: 100px;
+    }
+    #connect-portfolio{
+        position: absolute;
+        bottom: 100px;
+        top: 1030px;
+        height: 100px;
+    }
+    #connect-contact{
+        top: 510px;
+    }
 }
